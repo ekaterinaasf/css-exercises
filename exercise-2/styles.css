@@ -4,6 +4,64 @@ body {
   margin: 0;
 }
 
+/* Constants */
+
+:root {
+  --grid: 10px;
+}
+
 * {
   box-sizing: border-box;
+}
+img{
+  float: left;
+  padding-right: var(--grid);
+}
+
+.block{
+  margin: var(--grid);
+  background-color: lightgray;
+}
+
+.card{
+  background-color: white;
+  padding: var(--grid);
+}
+
+.button_nope{
+  border-radius: 7px;
+  background-color: lightgray;
+  color: darkslategray;
+  float: right;
+  /*padding-bottom: var(--grid);*/
+}
+
+.button_ok{
+  border-radius: 7px;
+  background-color: blueviolet;
+  color: white;
+  float: right;
+  bottom:0px;
+}
+
+/* Grid */
+
+.grid {
+  display: grid;
+  padding: calc(4*var(--grid));
+  grid-column-gap: calc(5*var(--grid));
+  grid-template-areas:
+    "first second third";
+}
+
+.first {
+  grid-area: first;
+}
+
+.second{
+  grid-area: second;
+}
+
+.third{
+  grid-area: third;
 }
