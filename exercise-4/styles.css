@@ -93,12 +93,16 @@ body {
 }
 
 figure {
-  max-height: 28em;
+ /* max-height: 28em;*/ /*for the aspect ratio padding trick*/
   margin-bottom: 0;
   margin-left: -10em;
   margin-right: -10em;
   margin-top: 0;
   overflow: hidden;
+  /*wrap the images in a zero height container and give a padding-top with the same aspect ratio of the image*/
+  height: 0;
+  /* Formula is: (height / width * 100%) */
+  padding-top: calc(5461 / 8192 * 100%);
 }
 
 figure img {
