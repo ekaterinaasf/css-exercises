@@ -4,6 +4,10 @@
   font-style: italic;
   src: url(https://dv9y9s4n4ocup.cloudfront.net/DomaineDisplayTest-ExtraboldItalic.woff)
     format("woff");
+  font-display: swap; /*swap: 
+  Fallback text is immediately rendered in the next available system typeface in the font stack until the custom font loads, 
+  in which case the new typeface will be swapped in.
+  Users will be able to read content immediately.*/
 }
 
 @font-face {
@@ -12,6 +16,7 @@
   font-style: normal;
   src: url(https://dv9y9s4n4ocup.cloudfront.net/DomaineTextTest-Light.woff)
     format("woff");
+  font-display: swap;
 }
 
 @font-face {
@@ -20,6 +25,7 @@
   font-style: italic;
   src: url(https://dv9y9s4n4ocup.cloudfront.net/DomaineTextTest-LightItalic.woff)
     format("woff");
+  font-display: swap;
 }
 
 @font-face {
@@ -28,6 +34,7 @@
   font-style: normal;
   src: url(https://dv9y9s4n4ocup.cloudfront.net/DomaineTextTest-Medium.woff)
     format("woff");
+  font-display: swap;
 }
 
 @font-face {
@@ -36,6 +43,7 @@
   font-style: italic;
   src: url(https://dv9y9s4n4ocup.cloudfront.net/DomaineTextTest-MediumItalic.woff)
     format("woff");
+  font-display: swap;
 }
 
 @font-face {
@@ -44,6 +52,7 @@
   font-style: normal;
   src: url(https://dv9y9s4n4ocup.cloudfront.net/DomaineTextTest-Bold.woff)
     format("woff");
+  font-display: swap;
 }
 
 @font-face {
@@ -52,6 +61,7 @@
   font-style: italic;
   src: url(https://dv9y9s4n4ocup.cloudfront.net/DomaineTextTest-BoldItalic.woff)
     format("woff");
+  font-display: swap;
 }
 
 @font-face {
@@ -60,6 +70,7 @@
   font-style: normal;
   src: url(https://dv9y9s4n4ocup.cloudfront.net/DomaineTextTest-Black.woff)
     format("woff");
+  font-display: swap;
 }
 
 @font-face {
@@ -68,6 +79,7 @@
   font-style: italic;
   src: url(https://dv9y9s4n4ocup.cloudfront.net/DomaineTextTest-BlackItalic.woff)
     format("woff");
+  font-display: swap;
 }
 
 /* Load body last 😈 */
@@ -77,6 +89,7 @@
   font-style: normal;
   src: url(https://dv9y9s4n4ocup.cloudfront.net/DomaineTextTest-Regular.woff)
     format("woff");
+  font-display: swap;
 }
 
 @font-face {
@@ -85,6 +98,7 @@
   font-style: italic;
   src: url(https://dv9y9s4n4ocup.cloudfront.net/DomaineTextTest-RegularItalic.woff)
     format("woff");
+  font-display: swap;
 }
 
 body {
