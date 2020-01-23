@@ -14,3 +14,11 @@ following:
 3.  Left/right buttons aren’t necessary
 4.  Touch swipe isn’t necessary
 5.  Supporting flexible slides / image sizes isn’t necessary.
+
+From font-awesome icons:
+<i class="fas fa-circle-thin"></i> <!--empty circle-->
+<i class="fas fa-circle"></i> <!--solid circle-->
+
+9679	25CF	 	BLACK CIRCLE
+9675	25CB	 	WHITE CIRCLE
+<p>I will display &#9658;</p>

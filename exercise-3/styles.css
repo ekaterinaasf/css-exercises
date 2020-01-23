@@ -1,8 +1,38 @@
 body {
   margin: 0;
   padding:0;
+
+
+}
+
+img{
+  width:100%;
+}
+.box{
+  display:inline;
+  font-size:30px;
+  color:rebeccapurple;
 }
 
 * {
   box-sizing: border-box;
+}
+
+.press:hover{
+  color:red;
+}
+
+.carousel{
+  /**Overflow-x property sets what shows when content overflows a block-level 
+  element's left and right edges. hidden, scroll, clip, visible or auto**/
+  overflow-x:auto;
+  display: flex;
+}
+
+.slide{
+
+}
+
+#1{
+
 }
