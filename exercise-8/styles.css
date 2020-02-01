@@ -34,6 +34,7 @@ main {
 
 .ratio__1-1::after {
   content: "1:1";
+  padding-top: 100%; /* 1:1 Aspect Ratio */
 }
 
 .ratio__2-1::after {
