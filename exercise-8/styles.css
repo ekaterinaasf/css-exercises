@@ -39,12 +39,15 @@ main {
 
 .ratio__2-1::after {
   content: "2:1";
+  padding-top: 50%; /* 2:1 Aspect Ratio */
 }
 
 .ratio__2-3::after {
   content: "2:3";
+  padding-top: 150%; /* 2:3 Aspect Ratio */
 }
 
 .ratio__3-2::after {
   content: "3:2";
+  padding-top: 66.66%; /* 3:2 Aspect Ratio */
 }
